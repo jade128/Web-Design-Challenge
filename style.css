@@ -10,11 +10,11 @@ body{
 }
 .navigation .navbar-brand{
     color: white; 
-    margin-left: 30px; 
+    margin-left: 120px; 
     padding: inherit; 
     font-weight: bold; 
     background-color: #0badad;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .active, .dropdown-menu .dropdown-item:active a:hover{
@@ -48,13 +48,13 @@ img{
     
 }
 .vizualization{
-    width:50% !important;
-    height:50% !important;
+    width:60% !important;
+    height:60% !important;
 }
 
 .title{
     color: #0BADA6;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
