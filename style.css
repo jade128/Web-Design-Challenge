@@ -1,0 +1,137 @@
+
+body{
+    background-color: #DCDCDC; 
+}
+/* Navagition bar */
+.navbar{
+    max-height: 57px; 
+    background-color: white; 
+    font-size: 15px; 
+}
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #0badad;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7!important; 
+}
+.dropdown-item{
+    color: #6D8092 !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:#E7E7E7 !important; 
+}
+a{
+    color: #6D8092;
+    font-size: 15px; 
+}
+.nav-link:hover{
+    background-color:#E7E7E7 !important;
+   }
+
+.navbar-brand:hover{
+color: rgb(175, 175, 175) !important;
+}
+
+img{
+    width:100% !important;
+    height:100% !important;
+}
+.active, .panel:hover{
+    border-color:#0BADA6;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% !important;
+    height:50% !important;
+}
+
+.title{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+
+p{
+    color:#a9a9a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+}
+
+p1{
+    color:#464646;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+
+  }
+
+  .table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: #0BADA6 !important;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px !important; 
+}
+
+button{
+    margin-right: 30px; 
+}
+button:focus {
+
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    
+}
+
+
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    min-height:55px;
+    bottom:0;
+    background-color: #666666;
+    border-top-style:solid;
+    border-top-width: 5px;
+    border-top-color:#0badad;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: center;
+    bottom:0;
+}
